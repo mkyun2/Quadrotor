@@ -1,7 +1,9 @@
 # Quadrotor
 <img src="Quadrotor.jpg" width = "100%" height = "100%"></img>
 ### Dynamics and Controller Simulation - Matlab Simulink 
+Quadrotor_Controller.slx
 ### Equation Derivation - Python
+Quadrotor_Model.ipynb
 
 ## Simulation Image
 ### Control Input- Position(7,-10,5) Heading(1 rad)
