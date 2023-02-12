@@ -11,5 +11,5 @@
 
 ## I refer to below
   Lim, Jeonggeun. “Autonomous target following and monitoring with collision avoidance based on an Lidar on a multi-copter”
-  Yang, Kwangwoong. "쿼드 로터 무인항공기 제어 및 시뮬레이션"
+Yang, Kwangwoong. "쿼드 로터 무인항공기 제어 및 시뮬레이션"
 
