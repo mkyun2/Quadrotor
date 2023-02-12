@@ -4,7 +4,7 @@
 ### Equation Derivation - Python
 
 ## Simulation Image
-###Control Input- Position(7,-10,5) Heading(1 rad)
+### Control Input- Position(7,-10,5) Heading(1 rad)
 
 <img src="ControlOutput.jpg" width = "100%" height = "100%"></img>
 <img src="ControlOutput.jpg" width = "100%" height = "100%"></img>
