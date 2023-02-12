@@ -10,6 +10,6 @@
 <img src="ControlOutput.jpg" width = "100%" height = "100%"></img>
 
 ## I refer to below
-  Lim, Jeonggeun. “Autonomous target following and monitoring with collision avoidance based on an Lidar on a multi-copter”
+Lim, Jeonggeun. “Autonomous target following and monitoring with collision avoidance based on an Lidar on a multi-copter”<br>
 Yang, Kwangwoong. "쿼드 로터 무인항공기 제어 및 시뮬레이션"
 
