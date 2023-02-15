@@ -5,7 +5,8 @@ PID Controller - Quadrotor_Controller.slx<br>
 Sliding Mode Controller - Quadrotor_SMC.slx
 ### Equation Derivation - Python
 Quadrotor_Model.ipynb
-
+## SMC vs PID Simulation with Disturbance
+<img src="Comparing.png" width = "100%" height = "100%"></img>
 ## PID Simulation Image
 ### Control Input- Position(7,-10,5) Heading(1 rad)
 
