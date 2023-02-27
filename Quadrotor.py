@@ -1,3 +1,9 @@
+############################################################
+# Kim, Myeongkyun, GIST, BioRobotics
+# maengkyun@gm.gist.ac.kr
+############################################################ 
+# Quadrotor Simplified Dynamics & Controller
+############################################################
 import numpy as np
 import matplotlib.pyplot as plt
 class Quadrotor():
