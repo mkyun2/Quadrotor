@@ -159,21 +159,17 @@ class Quadrotor():
         pos_Kp = 1.0
         pos_Kp_rate = 0.8
         g=9.81
-        T_data=[]
-        for time in np.linspace(0,self.Time,self.Time*int(1/self.dt)):
-            T_data.append(time)
-            posError = des_Position-self.p
-            ctlInput = saturation(pos_Kp*posError - pos_Kp_rate*self.p_dot,-3,3)
-            throttle = ctlInput[2]+self.m*g
-            des_Roll = (ctlInput[0]*np.sin(des_Yaw)-ctlInput[1]*np.cos(des_Yaw))/np.sqrt(ctlInput[0]**2+ctlInput[1]**2+(throttle)**2)
-            des_Pitch = (ctlInput[0]*np.cos(des_Yaw)+ctlInput[1]*np.sin(des_Yaw))/(throttle)
-            
-            des_eta = np.array([
-                [des_Roll],
-                [des_Pitch],
-                [des_Yaw]])
-            self.Attitude_Controller(throttle, des_eta)
-        self.plot(T_data)
+        posError = des_Position-self.p
+        ctlInput = saturation(pos_Kp*posError - pos_Kp_rate*self.p_dot,-3,3)
+        throttle = ctlInput[2]+self.m*g
+        des_Roll = (ctlInput[0]*np.sin(des_Yaw)-ctlInput[1]*np.cos(des_Yaw))/np.sqrt(ctlInput[0]**2+ctlInput[1]**2+(throttle)**2)
+        des_Pitch = (ctlInput[0]*np.cos(des_Yaw)+ctlInput[1]*np.sin(des_Yaw))/(throttle)
+        
+        des_eta = np.array([
+            [des_Roll],
+            [des_Pitch],
+            [des_Yaw]])
+        self.Attitude_Controller(throttle, des_eta)
     def MPC_Controller(self,x0,des_Position):
         A = np.array([
                     [1, 0,self.dt, 0],
