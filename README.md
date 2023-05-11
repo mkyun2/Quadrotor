@@ -1,7 +1,7 @@
 # Quadrotor
 <img src="Quadrotor.jpg" width = "100%" height = "100%"></img>
 ### Dynamics and Controller Simulation - Python
-PID Controller - Quadrotor_Controller.py<br>
+Position(MPC,PID), Attitude(PID) Controller - Quadrotor.py<br>
 Dynamics - Quadrotor_Model.ipynb
 ### Dynamics and Controller Simulation - Matlab Simulink 
 PID Controller - Quadrotor_Controller.slx<br>
